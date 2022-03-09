@@ -1,0 +1,20 @@
+<!DOCTYPE patchbay>
+<patchbay version="0.9.6" name="alvrpatchbay">
+ <output-sockets>
+  <socket type="jack-audio" name="VirtMain monitor" exclusive="off" client="VirtMain\ Audio\/Sink\ sink\ Monitor">
+   <plug>monitor_FL</plug>
+   <plug>monitor_FR</plug>
+  </socket>
+ </output-sockets>
+ <input-sockets>
+  <socket type="jack-audio" name="alvrin" exclusive="off" client="alsa\-jack\.jackC.*">
+   <plug>in_000</plug>
+   <plug>in_001</plug>
+  </socket>
+ </input-sockets>
+ <slots/>
+ <cables>
+  <cable type="jack-audio" output="VirtMain monitor" input="alvrin"/>
+ </cables>
+</patchbay>
+
