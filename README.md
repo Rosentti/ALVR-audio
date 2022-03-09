@@ -17,8 +17,9 @@ Start this script. Once QJackCtl starts, go to "Setup -> Options -> Patchbay Per
 Then, open ALVR, go to Audio, set the playback device to "jack".
 
 ## Microphone (experimental and possibly very broken)
-If you want to try the microphone, set the first device to "surround21:CARD=Loopback,DEV=0",
-and the second device to "surround21:CARD=Loopback,DEV=1". 
+If you want to try the microphone, set the first device to "surround21:CARD=Loopback,DEV=0", and the second device to "surround21:CARD=Loopback,DEV=1". 
+
 Afterwards, you might need to configure pulseaudio to make the loopback device Surround 2.1 Input + Surround 2.1 Output. (Some games probably don't like surround microphones, needs a better solution)
+
 If you find a cleaner solution to the microphone issue, please open an issue or maybe even a pull request.
 
