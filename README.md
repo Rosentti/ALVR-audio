@@ -1,6 +1,8 @@
 # ALVR Audio Script
 Script for ALVR that helps with getting audio to play on Linux.
+
 Note: Microphone might work out of the box, but might require some tweaking.
+
 In the future this script may not be necessary if ALVR gets pipewire or pulseaudio support.
 
 ## Requirements
