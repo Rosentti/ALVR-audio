@@ -2,7 +2,8 @@
 Script for ALVR that helps with getting audio to play on Linux.
 
 Note: Microphone might work out of the box, but might require some tweaking.
-
+Important Note: I'm not actively using VR on Linux so I cannot really troubleshoot issues with this. 
+If you are experienced enough, you can try to edit this so it works for your use case.
 In the future this script may not be necessary if ALVR gets pipewire or pulseaudio support.
 
 ## Requirements
